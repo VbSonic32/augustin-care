@@ -33,6 +33,7 @@
 	--space-16: 64px;
 	--space-20: 80px;
 	--space-24: 96px;
+	--space-small: 2px;
 }
 
 *,
@@ -235,7 +236,6 @@ body {
 	gap: var(--space-8);
 	background: rgba(255, 255, 255, 0.05);
 	padding: var(--space-5) var(--space-6);
-	border-radius: 20px;
 	border: 1px solid rgba(255, 255, 255, 0.12);
 	backdrop-filter: blur(12px);
 	margin-bottom: var(--space-12);
@@ -462,14 +462,13 @@ main {
 .tasks-grid {
 	display: grid;
 	grid-template-columns: repeat(auto-fill, minmax(340px, 1fr));
-	gap: var(--space-6);
+	gap: var(--space-1);
 	margin-bottom: var(--space-20);
 }
 
 .task-card {
 	background: var(--color-surface);
 	border: 1px solid var(--color-border);
-	border-radius: 12px;
 	overflow: hidden;
 	transition:
 		transform 0.2s ease,
@@ -640,7 +639,6 @@ main {
 /* ── TIPS STRIP ── */
 .tips-strip {
 	background: var(--color-grass-deep);
-	border-radius: 16px;
 	padding: var(--space-12) clamp(var(--space-8), 5vw, var(--space-16));
 	display: grid;
 	grid-template-columns: repeat(auto-fit, minmax(195px, 1fr));
