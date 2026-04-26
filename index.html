@@ -1,0 +1,524 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>St. Augustinegrass — Home Lawn Care Guide</title>
+		<link
+			href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;900&family=DM+Sans:wght@300;400;500&family=DM+Mono:wght@400;500&display=swap"
+			rel="stylesheet"
+		/>
+		<link rel="stylesheet" href="style.css" />
+		<script src="https://unpkg.com/lucide@latest"></script>
+	</head>
+	<body>
+		<a href="#main" class="skip-link">Skip to main content</a>
+
+		<!-- HERO -->
+		<section class="hero">
+			<div class="hero-bg"></div>
+
+			<!-- Animated grass blades -->
+			<div class="grass-layer" id="grassLayer"></div>
+
+			<div class="hero-container">
+				<div class="hero-content">
+					<div class="hero-eyebrow">Texas A&M AgriLife Extension · EHT-141</div>
+					<h1>St. Augustine<br /><em>Grass</em> Care</h1>
+					<p class="hero-sub">
+						A complete home lawn maintenance guide — from establishment through every
+						season. Grow thick, healthy turf with the right actions at the right time.
+					</p>
+					<div class="hero-actions">
+						<div class="hero-actions-info">
+							<p>
+								Download the official 2020 Management Calendar for professional-grade
+								results.
+							</p>
+						</div>
+						<a
+							href="src/St.AugustineManagementCalendar2020.pdf"
+							class="btn btn-primary"
+							download
+							aria-label="Download Maintenance Guide (PDF)"
+						>
+							<span class="btn-icon" aria-hidden="true">↓</span>
+							Download Calendar
+						</a>
+					</div>
+					<div class="hero-meta">
+						<div class="hero-meta-item">
+							<span class="hero-meta-label">Authors</span>
+							<span class="hero-meta-value">Chrissie A. Segars, Ph.D.</span>
+						</div>
+						<div class="hero-meta-item">
+							<span class="hero-meta-label">Specialist</span>
+							<span class="hero-meta-value">Becky Bowling, Ph.D.</span>
+						</div>
+						<div class="hero-meta-item">
+							<span class="hero-meta-label">Type</span>
+							<span class="hero-meta-value">Warm-Season Turfgrass</span>
+						</div>
+					</div>
+				</div>
+				<div class="hero-visual">
+					<img src="images/hero.png" alt="Guide Cover" class="hero-img" />
+				</div>
+			</div>
+		</section>
+
+		<!-- SEASON STRIP -->
+		<div class="season-strip">
+			<div class="season-block winter">
+				<div class="season-dot"></div>
+				Winter · Dec–Feb
+			</div>
+			<div class="season-block spring">
+				<div class="season-dot"></div>
+				Spring · Mar–May
+			</div>
+			<div class="season-block summer">
+				<div class="season-dot"></div>
+				Summer · Jun–Aug
+			</div>
+			<div class="season-block fall">
+				<div class="season-dot"></div>
+				Fall · Sep–Nov
+			</div>
+		</div>
+
+		<!-- MAIN CONTENT -->
+		<main id="main">
+			<!-- TASK CARDS -->
+			<div class="section-header">
+				<div class="section-label">Maintenance Categories</div>
+				<h2 class="section-title">Everything Your Lawn Needs</h2>
+			</div>
+
+			<div class="tasks-grid">
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="sprout"></i></div>
+						<div class="task-card-title">Establishment</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							The best time to establish warm-season grass is during active growth
+							periods. Plant sod, plugs, or seed when the grass is vigorously growing
+							to ensure strong root development before stressful conditions arrive.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="scissors"></i></div>
+						<div class="task-card-title">Mowing</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Mow at 2 to 4 inches weekly, or as frequently as necessary to prevent
+							scalping. Never remove more than ⅓ of the leaf tissue at one time. In
+							winter, mow only if needed to prevent weeds from flowering.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag winter">Winter</span>
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="sparkles"></i></div>
+						<div class="task-card-title">Fertilization</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Make the first application when the lawn is actively growing and has been
+							mowed at least twice. Apply 0.5–1 lb of nitrogen per 1,000 ft² up to 4
+							times during the growing season. Do not exceed 4 lbs N/1,000 ft² per year
+							or apply to stressed grass.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="wind"></i></div>
+						<div class="task-card-title">Aerification</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Aerate to relieve soil compaction, especially in new lawns with limited
+							organic matter or in heavily used lawns. Best performed when there is
+							adequate soil moisture — typically spring through early fall.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="leaf"></i></div>
+						<div class="task-card-title">Thatch Removal</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Remove problematic thatch using hollow-tine aerification, a vertical
+							mower, or a power rake. Thatch at 0.5 to 1 inch depth can begin to impede
+							water infiltration and harbor disease and insects.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="shield-check"></i></div>
+						<div class="task-card-title">Weed Control</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Apply pre-emergence herbicides when soil temps reach ~55°F for 4–5
+							consecutive days to prevent summer annuals (crabgrass, goosegrass). In
+							fall, apply pre-emergence at ~70°F for winter annuals. Apply
+							post-emergence as needed year-round.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag winter">Winter</span>
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="droplets"></i></div>
+						<div class="task-card-title">Irrigation</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Turn off irrigation in winter when the grass is dormant. Complete the
+							"Water-Wise Checklist" before turning on in spring. During the season,
+							irrigate only when necessary to prevent wilting or to replace at least
+							60% of evapotranspiration.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="bug"></i></div>
+						<div class="task-card-title">Insect Control</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Apply preventative white grub products if necessary in early summer.
+							Apply curative treatments for white grubs as needed. Scout for chinch
+							bugs (apply insecticide if found) and watch for fall armyworms in late
+							summer through fall.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+
+				<div class="task-card">
+					<div class="task-card-header">
+						<div class="task-icon"><i data-lucide="activity"></i></div>
+						<div class="task-card-title">Disease Control</div>
+					</div>
+					<div class="task-card-body">
+						<p>
+							Scout for take-all root rot and gray leaf spot during the growing season.
+							Apply preventative fungicide for large patch disease (<em
+								>Rhizoctonia solani</em
+							>) in fall and spring when soil temperatures are between 50–70°F in areas
+							with a history of disease.
+						</p>
+					</div>
+					<div class="task-season-tags">
+						<span class="season-tag spring">Spring</span>
+						<span class="season-tag summer">Summer</span>
+						<span class="season-tag fall">Fall</span>
+					</div>
+				</div>
+			</div>
+
+			<div class="ornament">✦ ✦ ✦</div>
+
+			<!-- CALENDAR TABLE -->
+			<div class="section-header">
+				<div class="section-label">Monthly Reference</div>
+				<h2 class="section-title">The Full-Year Calendar</h2>
+			</div>
+
+			<div class="calendar-section">
+				<table class="cal-table">
+					<thead>
+						<tr>
+							<th style="border: none"></th>
+							<th class="month-winter">Jan</th>
+							<th class="month-winter">Feb</th>
+							<th class="month-spring">Mar</th>
+							<th class="month-spring">Apr</th>
+							<th class="month-spring">May</th>
+							<th class="month-summer">Jun</th>
+							<th class="month-summer">Jul</th>
+							<th class="month-summer">Aug</th>
+							<th class="month-fall">Sep</th>
+							<th class="month-fall">Oct</th>
+							<th class="month-fall">Nov</th>
+							<th class="month-winter">Dec</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="sprout"></i>
+								</div>
+								Establish
+							</td>
+							<td></td>
+							<td></td>
+							<td class="active-cell" colspan="6">
+								Active growth period — best time to establish
+							</td>
+							<td class="active-cell" colspan="2">Still possible</td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="scissors"></i>
+								</div>
+								Mowing
+							</td>
+							<td class="active-cell" colspan="2">Mow to prevent weed flowering</td>
+							<td class="active-cell" colspan="8">
+								2–4" weekly, never remove more than ⅓ at once
+							</td>
+							<td class="active-cell" colspan="2">Mow to prevent weed flowering</td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="sparkles"></i>
+								</div>
+								Fertilize
+							</td>
+							<td></td>
+							<td></td>
+							<td class="active-cell" colspan="3">
+								First app after 2nd mow, once actively growing
+							</td>
+							<td class="active-cell" colspan="3">
+								0.5–1 lb N/1,000 ft² with slow + quick release
+							</td>
+							<td class="active-cell" colspan="2">Last app 4–6 weeks before frost</td>
+							<td class="active-cell">Varies by region</td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="wind"></i>
+								</div>
+								Aerify
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="active-cell" colspan="5">Aerate when moisture is adequate</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="leaf"></i>
+								</div>
+								Thatch
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="active-cell" colspan="5">Remove if 0.5–1" thick</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="shield-check"></i>
+								</div>
+								Weeds
+							</td>
+							<td class="active-cell" colspan="2">Post-em: winter annuals</td>
+							<td class="active-cell" colspan="2">
+								Pre-em at 55°F for summer annuals
+							</td>
+							<td class="active-cell" colspan="4">Post-em as needed</td>
+							<td class="active-cell" colspan="2">
+								Pre-em at 70°F for winter annuals
+							</td>
+							<td class="active-cell" colspan="2">Post-em: winter annuals</td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="droplets"></i>
+								</div>
+								Irrigate
+							</td>
+							<td class="active-cell" colspan="2">Off — dormant season</td>
+							<td class="active-cell" colspan="2">Water-Wise Checklist</td>
+							<td class="active-cell" colspan="5">Replace ≥60% evapotranspiration</td>
+							<td class="active-cell">Taper off</td>
+							<td class="active-cell" colspan="2">Off — dormant season</td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="bug"></i>
+								</div>
+								Insects
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td></td>
+							<td class="active-cell" colspan="2">Preventative white grub products</td>
+							<td class="active-cell" colspan="2">
+								Curative grubs + chinch bug scouts + fall armyworm
+							</td>
+							<td></td>
+							<td></td>
+							<td></td>
+						</tr>
+						<tr>
+							<td class="row-label">
+								<div class="task-icon">
+									<i data-lucide="activity"></i>
+								</div>
+								Disease
+							</td>
+							<td></td>
+							<td></td>
+							<td class="active-cell">Large patch fungicide (50–70°F)</td>
+							<td class="active-cell" colspan="5">
+								Scout for take-all root rot & gray leaf spot
+							</td>
+							<td class="active-cell" colspan="2">Large patch fungicide (50–70°F)</td>
+							<td></td>
+							<td></td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+
+			<div class="section-header">
+				<div class="section-label">Best Practices</div>
+				<h2 class="section-title">Professional Care Secrets</h2>
+			</div>
+
+			<div class="tips-strip">
+				<div class="tip-item">
+					<div class="tip-number">01</div>
+					<div class="tip-title">The ⅓ Rule</div>
+					<p class="tip-text">
+						Never remove more than one-third of the leaf blade in a single mowing
+						session to avoid scalping and stress.
+					</p>
+				</div>
+				<div class="tip-item">
+					<div class="tip-number">02</div>
+					<div class="tip-title">Soil Test First</div>
+					<p class="tip-text">
+						Always apply nutrients beyond nitrogen based on soil test results. Don't
+						guess — your soil tells you what it needs.
+					</p>
+				</div>
+				<div class="tip-item">
+					<div class="tip-number">03</div>
+					<div class="tip-title">Watch Soil Temp</div>
+					<p class="tip-text">
+						Pre-emergence herbicides only work when applied at the right soil
+						temperature window — timing is everything.
+					</p>
+				</div>
+				<div class="tip-item">
+					<div class="tip-number">04</div>
+					<div class="tip-title">Never Stress-Feed</div>
+					<p class="tip-text">
+						Do not apply fertilizer to stressed grass. Drought, heat, or disease
+						stress must be resolved before feeding.
+					</p>
+				</div>
+				<div class="tip-item">
+					<div class="tip-number">05</div>
+					<div class="tip-title">Water Wisely</div>
+					<p class="tip-text">
+						Irrigate only to prevent wilting or replace 60% of ET. Skip irrigation
+						during rainy periods and late fall.
+					</p>
+				</div>
+			</div>
+		</main>
+
+		<!-- FOOTER -->
+		<footer>
+			<div class="footer-logo">St. Augustinegrass Care Guide</div>
+			<p>
+				Published by
+				<strong style="color: #fff">Texas A&M AgriLife Extension</strong> · The
+				Texas A&M University System. This calendar serves as a general guide and
+				practices may vary depending on environmental conditions.
+			</p>
+			<p>
+				For more information on weed identification and control, visit
+				<a href="https://aggieturf.tamu.edu" target="_blank">aggieturf.tamu.edu</a>
+			</p>
+			<p style="margin-top: var(--space-4); font-size: 0.75rem; opacity: 0.4">
+				Texas A&M AgriLife Extension is an equal opportunity employer and program
+				provider. · EHT-141 · 6/20
+			</p>
+		</footer>
+
+		<script src="script.js"></script>
+	</body>
+</html>
